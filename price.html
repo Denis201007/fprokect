@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <title>Pricing example · Bootstrap v5.0</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/pricing/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="pricing.css" rel="stylesheet">
+  </head>
+  <body>
+    
+<svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+  <symbol id="check" viewBox="0 0 16 16">
+    <title>Check</title>
+    <path d="M13.854 3.646a.5.5 0 0 1 0 .708l-7 7a.5.5 0 0 1-.708 0l-3.5-3.5a.5.5 0 1 1 .708-.708L6.5 10.293l6.646-6.647a.5.5 0 0 1 .708 0z"/>
+  </symbol>
+</svg>
+
+<div class="container py-3">
+  <header>
+    <div class="d-flex flex-column flex-md-row align-items-center pb-3 mb-4 border-bottom">
+      <a href="/" class="d-flex align-items-center text-dark text-decoration-none">
+        <img class="me-2 logo_navbar" src="logo.jpg">
+        <span class="fs-4">БИТОК</span>
+      </a>
+
+      <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto">
+        <a class="me-3 py-2 text-dark text-decoration-none" href="index.html"><img src="arrow.svg" alt="" class="btn-icon-arrow"></a>
+       
+        <a class="py-2 text-dark text-decoration-none" href="index3.html">Подписки</a>
+      </nav>
+    </div>
+
+    <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+      <h1 class="display-4 fw-normal">Подписки на Биток</h1>
+      <p class="fs-5 text-muted">Покупая потписку на БИТОК вы получаеете полный доступ к крипто рынку и курсу БИТКА чтобы грамотно отслежавать и покупать БИТОК</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">БЕСПЛАНТНЫЙ</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">0 рублей<small class="text-muted fw-light">/месец</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>возможность перехода на курс крипты</li>
+              <li>покупка курсов у грамотный крипто майнеров</li>
+              <li>помощь от поддержки</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-outline-primary">ПОЛЮЧИТЬ БЕСПЛАТНО ЗА ПОДПИСКУ НА НАШ ВК</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm">
+          <div class="card-header py-3">
+            <h4 class="my-0 fw-normal">ПРОФЕСИОНАЛЬНЫЙ</h4>
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">1499 рублей<small class="text-muted fw-light">/месец</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Дополнительный курсы крипто рынка</li>
+              <li>возможность отслежавания курса офлаин</li>
+              <li>продвинутая помощь поддержки</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">КУПИТЬ</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card mb-4 rounded-3 shadow-sm border-primary">
+          <div class="card-header py-3 text-white bg-primary border-primary">
+            <h4 class="my-0 fw-normal"></h4>ПРОИЗВОДСТВЕННЫЙ
+          </div>
+          <div class="card-body">
+            <h1 class="card-title pricing-card-title">2999 рублей<small class="text-muted fw-light">/ месец</small></h1>
+            <ul class="list-unstyled mt-3 mb-4">
+              <li>Отслежавание курса по СМС</li>
+              <li>отслеживание курса на нескольких устройствах</li>
+              <li>круглосуточную подержу без очереди</li>
+            </ul>
+            <button type="button" class="w-100 btn btn-lg btn-primary">КУПИТЬ</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <h2 class="display-6 text-center mb-4">Compare plans</h2>
+
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th style="width: 34%;"></th>
+            <th style="width: 22%;">БЕСПЛАНТНЫЙ</th>
+            <th style="width: 22%;">ПРОФЕСИОНАЛЬНЫЙ</th>
+            <th style="width: 22%;">ПРОИЗВОДСТВЕННЫЙ</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Публичная подержа</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+   
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Курс</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">служба подержки</th>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">смс оповещение</th>
+            <td></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+            <td><svg class="bi" width="24" height="24"><use xlink:href="#check"/></svg></td>
+          </tr>
+          <tr>
+
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </main>
+
+  <footer class="pt-4 my-md-5 pt-md-5 border-top">
+    <div class="row">
+      <div class="col-12 col-md">
+        <img class="mb-2" src="logo1.jpg" alt="" width="99" height="99">
+        <small class="d-block mb-3 text-muted">&copy; 2017–2024</small>
+     
+Сатоси Накамото — псевдоним человека или группы людей, разработавших протокол криптовалюты биткоин и создавших первую версию программного обеспечения, в котором этот протокол был реализован.
+
+Было предпринято несколько попыток раскрыть реальную личность или группу, стоящую за этим именем, но ни одна из них не была успешной.
+
+31 октября 2008 года Накамото опубликовал статью «Bitcoin: A Peer-to-Peer Electronic Cash System», в которой описал полностью децентрализованную систему электронной наличности, не требующую доверия или администрирования. В начале 2009 года он опубликовал первую версию клиентского модуля сети биткоин и запустил его работу.
+    </div>
+  </footer>
+</div>
+
+
+    
+  </body>
+</html>
